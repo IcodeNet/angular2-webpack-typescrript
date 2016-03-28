@@ -1,0 +1,10 @@
+node_modules
+dist
+npm-debug.log
+typings
+descriptions
+.DS_Store
+.idea
+app/**/*.js
+app/**/*.map
+
