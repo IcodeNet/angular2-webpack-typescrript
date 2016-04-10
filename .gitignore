@@ -7,4 +7,5 @@ descriptions
 .idea
 app/**/*.js
 app/**/*.map
+server/gen
 
