@@ -21,6 +21,8 @@ const HMR = utils.hasProcessFlag('hot');
 const METADATA = {
   title: 'Angular2 Webpack Typescript',
   baseUrl: '/',
+  bootstrapCss: '/app/assets/css/bootstrap.css',
+  mainCss: '/app/assets/css/main.css',
   host: process.env.HOST || 'localhost',
   port: process.env.PORT || 8080,
   ENV: ENV,
