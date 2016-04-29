@@ -15,8 +15,20 @@
 ```
 
 **2.** Install local dependencies
+
+Make sure that you have latest node and npm. Note that typings is preferred to tsd
+
 ```bash
+#either :
+#
+> npm install tsd -g 
+> tsd install node -D
+#
+# or BETTER
+#
+> npm install typings --global
 > npm install
+
 ```
  
 **3.** Build local server that will serve as an api for following through the examples

@@ -11,12 +11,19 @@
 
   <!-- base url -->
   <base href="<%= webpackConfig.metadata.baseUrl %>">
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="app/vendor/materialize-css/css/materialize.css">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="<%= webpackConfig.metadata.bootstrapCss %>">
+  <link rel="stylesheet" href="<%= webpackConfig.metadata.mainCss %>">
 
 
 </head>
 
 <body>
 
+<!--  Application Component -->
 <app>
   Loading...
 </app>
